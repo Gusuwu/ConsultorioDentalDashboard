@@ -14,7 +14,7 @@ namespace Parcial2
     public partial class Form2 : Form
     {
         int? id;
-        MySqlConnection conexion = new MySqlConnection("server=bc0hlp84kblyxgwgnbv1-mysql.services.clever-cloud.com; Database = bc0hlp84kblyxgwgnbv1; Uid= utxfu6lpnbtjlwq7; Pwd= RZUdlvbtrHTCvKP1q1PO;");
+        MySqlConnection conexion = new MySqlConnection("server=server; Database = db; Uid= id; Pwd= pwd;");
         public Form2(int? id)
         {
             InitializeComponent();
